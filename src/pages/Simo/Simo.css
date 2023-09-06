@@ -1,0 +1,9 @@
+.fundo {
+
+    width: 100%;
+    height: 100vw;
+    background-image: url(/src/assets/img/img1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
