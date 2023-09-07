@@ -3,12 +3,14 @@ import Simo from "./pages/Simo";
 import Discover from "./pages/Discover";
 import Join from "./pages/Join";
 import SignIn from "./pages/SignIn";
-import Menu from "./Menu";
+import Cabecalho from "./Cabecalho";
+import Footer from "Footer";
 
  function AppRoutes () {
     return (
         <BrowserRouter>
-            <Menu />
+            <Cabecalho />
+
             <Routes>
                 <Route path="/" element={<Simo />} />
                 <Route path="/1" element={<Discover />} />
@@ -16,7 +18,12 @@ import Menu from "./Menu";
                 <Route path="/3" element={<SignIn />} />
                 <Route path="*" element={<div>Página não encontrada</div>} />
             </Routes>
+            
+            <Footer />
+
         </BrowserRouter>
+        
+        
     );
 
 }
