@@ -1,0 +1,8 @@
+.conteiner_discover {
+
+    background-size: cover;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255, 0, 0, 0);
+    height: 800px;
+}

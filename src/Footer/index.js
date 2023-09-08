@@ -5,8 +5,8 @@ import './Footer.css'
 function Footer() {
     return (
         <>
-        <footer className="cabecalho">
-            <nav className="nav">
+        <footer className="footer">
+            <nav className="footer_nav">
 
                 <a href="/aboutas">About As</a>
                 <a href="/contact">Contact</a>
