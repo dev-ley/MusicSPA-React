@@ -8,11 +8,11 @@ function Footer() {
         <footer className="footer">
             <nav className="footer_nav">
 
-                <a href="/aboutas">About As</a>
-                <a href="/contact">Contact</a>
-                <a href="/crinfo">CR Info</a>
-                <a href="/twitter">Twitter</a>
-                <a href="/facebook">Facebook</a>
+                <a href="#">About As</a>
+                <a href="#">Contact</a>
+                <a href="#">CR Info</a>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
 
             </nav>
         </footer>

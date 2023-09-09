@@ -17,6 +17,9 @@
     height: 60px;
     align-items: center;
     padding-left: 30px;
+    text-decoration: none;
+    padding-right: 10px;
+    color: white;
 
 }
 .nav {
@@ -31,8 +34,13 @@
 
 }
 
-.nav > a {
+.link {
     text-decoration: none;
     padding-right: 10px;
     color: white;
+    }
+
+    .linkDestacado{
+
+        text-decoration: underline;
     }

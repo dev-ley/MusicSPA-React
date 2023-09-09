@@ -1,8 +1,81 @@
 .conteiner_discover {
 
-    background-size: cover;
-    background-position: bottom ;
-    background-repeat: no-repeat;
-    border: 1px solid rgba(255, 0, 0, 0);
+    display: flex;
+    border: 1px solid rgba(21, 255, 0, 0);
     height: 800px;
+    align-items: center;
+    margin: 0 5%;
+
+}
+
+
+.box_discover {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    padding-left: 20px;
+    justify-content: space-between;
+
+}
+
+.box_discover > h1 {
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    color: white;
+    max-height: 500px;
+    text-align: center;
+    margin-right: 30px;
+
+    
+
+}
+
+.box_discover > p {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+
+}
+
+
+.botoes {
+    display: flex;
+}
+.botoes > a {
+
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+    background-color: #5E659D;
+    border-radius: 8px;
+    width: 110px;
+    text-align: center;
+    margin: 35px;
+
+}
+
+.box2_discover{
+
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 350px;
+    margin-left: 30px;
+}
+
+
+.box2_discover > img {
+
+
+height: 350px;
+
 }

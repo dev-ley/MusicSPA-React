@@ -12,12 +12,11 @@ import '../src/App.css';
         <BrowserRouter >
             <div className='fundo'>
                 <Cabecalho />
-                
                 <Routes>
                     <Route path="/" element={<Simo  />} />
-                    <Route path="/1" element={<Discover />} />
-                    <Route path="/2" element={<Join />} />
-                    <Route path="/3" element={<SignIn />} />
+                    <Route path="/Discover" element={<Discover />} />
+                    <Route path="/Join" element={<Join />} />
+                    <Route path="/SignIn" element={<SignIn />} />
                     <Route path="*" element={<div>Página não encontrada</div>} />
                 </Routes>
                 

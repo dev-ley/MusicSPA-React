@@ -1,16 +1,37 @@
 
-import './Cabecalho.css'
-import logo from './logo.png'
-
+import { Link, useLocation } from 'react-router-dom';
+import styles from './Cabecalho.module.css';
 
 function Cabecalho() {
+
+    const localizacao = useLocation();
+
     return (
-        <header className="cabecalho">
-            <nav className="nav">
-                <a className='logo' href="/">Simo</a>
-                <a href="/1">Discover</a>
-                <a href="/2">Join</a>
-                <a href="/3">Sign In</a>
+        <header className={styles.cabecalho}>
+            <nav className={styles.nav}>
+            <Link className={`
+                ${styles.logo}
+                ${localizacao.pathname === '/' ? styles.linkDestacado : ""}
+                `} to="/">Simo
+            </Link>
+
+            <Link className={`
+                ${styles.link}
+                ${localizacao.pathname === '/Discover' ? styles.linkDestacado : ""}
+                `} to="/Discover">Discover
+            </Link>
+
+            <Link className={`
+                ${styles.link}
+                ${localizacao.pathname === '/Join' ? styles.linkDestacado : ""}
+                `} to="/Join">Join
+            </Link>
+
+            <Link className={`
+                ${styles.link}
+                ${localizacao.pathname === '/Signin' ? styles.linkDestacado : ""}
+                `} to="/Signin">Sign In
+            </Link>
             </nav>
         </header>
     )

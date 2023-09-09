@@ -16,10 +16,9 @@
 
     display: flex;
     flex-direction: column;
-    width: 35vw;
-    margin-top: 16rem;
+    width: 40vw;
+    margin-top: 13rem;
     margin-left: 6rem;
-
     align-items: center;
 
 
@@ -29,7 +28,7 @@
 
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 70px;
+    font-size: 75px;
     color: white;
     text-wrap: nowrap;
     
@@ -40,7 +39,7 @@
 
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 23px;
     color: white;
     text-wrap: nowrap;
 
@@ -51,7 +50,7 @@
     margin-top: 25px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 24px;
     padding: 8px;
     color: white;
     background-color: #5E659D;
