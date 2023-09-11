@@ -64,79 +64,92 @@
 
 @media screen and (max-width:1000px) {
    
-    .box > a {
+.box > h1 {
 
+    font-size: 60px;
+
+}
+
+.box > p {
+    
+    font-size: 18px;
+
+}
+
+.box > a {
+
+    font-size: 18px;
+    padding: 10px;
+}
+
+}
+
+@media screen and (max-width:700px) {
+    body {
+        width: 100vh;
+
+    }
+    .conteiner {
+
+        background-image: url();
+        background-size: cover;
+        background-position: bottom ;
+        background-repeat: no-repeat;
+        border: 1px solid rgba(255, 0, 0, 0);
+        height: 800px;
+    }
+    .box {
+    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10rem;
+        margin-left: 0rem;
+        align-items: center;
+    
+    
+    }
+    
+    .box > h1 {
+    
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 50px;
+        color: white;
+        justify-content: center;        
+        justify-items: center;
+        align-items: center;
+
+    
+    }
+    
+    .box > p {
+    
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        color: white;
+        text-wrap: wrap;
+        text-align: center;
+    
+    }
+    
+    .box > a {
+    
         margin-top: 25px;
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
-        font-size: 24px;
-        padding: 8px;
+        font-size: 18px;
+        padding: 3px;
         color: white;
-        background-color: #33da00;
+        background-color: #5E659D;
         border-radius: 6px;
         text-wrap: nowrap;
         width: 140px;
         text-align: center;
     
     }
-
     
-.conteiner {
-
-    background-image: url(/src/assets/img/img1.png);
-    background-size: cover;
-    background-position: bottom ;
-    background-repeat: no-repeat;
-    border: 1px solid rgba(255, 0, 0, 0);
-    height: 800px;
-}
-.box {
-
-    display: flex;
-    flex-direction: column;
-    width: 40vw;
-    margin-top: 11rem;
-    margin-left: 6rem;
-    align-items: center;
-
-
-}
-
-.box > h1 {
-
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 75px;
-    color: white;
-    text-wrap: nowrap;
-    
-
-}
-
-.box > p {
-
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 23px;
-    color: white;
-    text-wrap: nowrap;
-
-}
-
-.box > a {
-
-    margin-top: 25px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    padding: 8px;
-    color: white;
-    background-color: #33da00;
-    border-radius: 6px;
-    text-wrap: nowrap;
-    width: 140px;
-    text-align: center;
-
-}
 
 }
