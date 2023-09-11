@@ -5,6 +5,8 @@
     height: 800px;
     align-items: center;
     margin: 0 5%;
+    justify-content: center;
+    
 
 }
 
@@ -79,3 +81,6 @@
 height: 350px;
 
 }
+
+
+

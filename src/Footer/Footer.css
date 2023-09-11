@@ -18,3 +18,28 @@
     }
 
     
+    @media screen and (max-width:700px) {
+
+        .footer_nav {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80px;
+            gap: 60px;
+            font-size: 18px;
+            color: white;
+            font-weight: 300;
+            padding-left: 20px;
+            margin-top: -80px;
+        }
+        
+        .footer_nav > a {
+            text-decoration: none;
+            padding-right: 10px;
+            color: white;
+            }
+        
+            
+        
+    }
