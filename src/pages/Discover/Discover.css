@@ -115,7 +115,7 @@ height: 350px;
         
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
-        font-size: 70px;
+        font-size: 60px;
         color: white;
         max-height: 500px;
         text-align: center;
@@ -129,8 +129,9 @@ height: 350px;
     
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
-        font-size: 17px;
+        font-size: 15px;
         color: white;
+        text-wrap: wrap;
     
     }
     
@@ -159,7 +160,7 @@ height: 350px;
     
         display: flex;
         flex-direction: column;
-        width: 25vw;
+        width: 0%;
         height: 350px;
         margin-left: 30px;
     }
@@ -168,7 +169,7 @@ height: 350px;
     .box2_discover > img {
     
     
-    height: 350px;
+    height: 0px;
     
     }
 
@@ -185,8 +186,10 @@ height: 350px;
         border: 1px solid rgba(21, 255, 0, 0);
         height: 800px;
         align-items: center;
-        margin: 0 5%;
+        margin: 0%;
         justify-content: center;
+
+
         
     
     }
@@ -207,7 +210,7 @@ height: 350px;
         
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
-        font-size: 70px;
+        font-size: 50px;
         color: white;
         max-height: 500px;
         text-align: center;
@@ -251,7 +254,7 @@ height: 350px;
     
         display: flex;
         flex-direction: column;
-        width: 25vw;
+        width: 0px;
         height: 350px;
         margin-left: 30px;
     }
@@ -259,7 +262,7 @@ height: 350px;
     
     .box2_discover > img {
     
-    
+    width: 0px;
     height: 350px;
     
     }
