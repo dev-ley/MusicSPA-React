@@ -134,7 +134,7 @@ gap: 84px;
             .conteiner {
         
                 background-image: url(/src/assets/img/img1.png);
-                background-size: cover;
+                background-size: contain;
                 background-position: bottom ;
                 background-repeat: no-repeat;
                 border: 1px solid rgba(255, 0, 0, 0);
