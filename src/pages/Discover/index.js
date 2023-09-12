@@ -8,9 +8,9 @@ function Discover () {
         <div className='box_discover'>
           <h1>Discover new music</h1>
           <div className='botoes'>
-            <a>Charts</a>
-            <a>Songs</a>
-            <a>Artists</a>
+            <a href='#'>Charts</a>
+            <a href='#'>Songs</a>
+            <a href='#'>Artists</a>
           </div>
           <p>By joing you can benefit by listening to the latest albums released</p>
         </div>

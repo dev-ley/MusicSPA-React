@@ -23,12 +23,6 @@ function Cabecalho() {
 
             <Link className={`
                 ${styles.link}
-                ${localizacao.pathname === '/Join' ? styles.linkDestacado : ""}
-                `} to="/Join">Join
-            </Link>
-
-            <Link className={`
-                ${styles.link}
                 ${localizacao.pathname === '/Signin' ? styles.linkDestacado : ""}
                 `} to="/Signin">Sign In
             </Link>

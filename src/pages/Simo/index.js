@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Simo.css'
 
 function Simo () {
@@ -7,7 +8,7 @@ function Simo () {
             <div className='box'>
               <h1>Feel the music</h1>
               <p>Stream over 10 million songs with one click</p>
-              <a>Join Now</a>
+              <Link className='link' to='/Signin'>Join Now</Link>
             </div>
  
        </div>

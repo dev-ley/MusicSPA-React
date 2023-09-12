@@ -1,0 +1,96 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.conteiner_signin {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(/src/pages/SignIn/img3.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255, 0, 0, 0);
+    height: 800px;
+    margin: 7rem auto 0 auto;
+
+    
+    
+}
+
+.box_signin {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    margin-left: 6rem;
+    align-items: flex-start;
+    border: 1px solid rgb(60, 32, 32);
+    gap: 20px;
+    background-color: #5E659D;
+    border-radius: 8px;
+    padding: 20px;
+    width: 450px;
+    height: 250px;
+    justify-content: center;
+    
+
+
+}
+
+label {
+
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 10px;
+    gap: 41px;
+
+    
+}
+
+input {
+
+    width: 230px;
+    height: 35px;
+    border-radius: 8px;
+    display: flex;
+    text-align: left;
+
+
+
+}
+
+.gap1 {
+
+gap: 84px;
+}
+
+.gap2 {
+
+    gap: 75px;
+    }
+
+    .conteiner_signin > a {
+
+        margin-top: 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 24px;
+        padding: 8px;
+        color: white;
+        background-color: #5E659D;
+        border-radius: 6px;
+        text-wrap: nowrap;
+        width: 140px;
+        text-align: center;
+        margin-left: 17rem;
+        text-decoration: none;
+    
+    }
