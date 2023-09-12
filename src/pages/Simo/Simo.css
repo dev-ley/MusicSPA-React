@@ -117,7 +117,7 @@
 @media screen and (max-width:700px) {
     body {
     
-        width: max-content;
+        width: 100vw;
         
 
 
@@ -137,11 +137,12 @@
         flex-direction: column;
         width: 100vw;
         margin-top: 10rem;
-        margin-left: 5rem;
+        margin-left: 0rem;
         align-items: start;
         justify-content: center;
         align-content: center;
-    
+
+        
     
     }
     
@@ -155,7 +156,7 @@
         justify-content: center;        
         justify-items: center;
         align-items: center;
-
+        margin-left: 5rem;
     
     }
     
@@ -168,6 +169,8 @@
         text-wrap: wrap;
         text-align: center;
         margin-top: 10px;
+        margin-left: 5rem;
+
     
     }
     
@@ -184,6 +187,8 @@
         text-wrap: nowrap;
         width: 140px;
         text-align: center;
+        margin-left: 5rem;
+
     
     }
     
