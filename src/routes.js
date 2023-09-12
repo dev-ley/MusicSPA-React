@@ -6,6 +6,7 @@ import Cabecalho from "./Cabecalho";
 import Footer from "Footer";
 import '../src/App.css';
 
+
  function AppRoutes () {
     return (
         <BrowserRouter >

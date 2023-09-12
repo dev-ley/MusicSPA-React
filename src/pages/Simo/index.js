@@ -4,13 +4,12 @@ import './Simo.css'
 function Simo () {
     return(
      
-      <div className='conteiner'> 
-            <div className='box'>
+      <div className='conteiner__simo'> 
+            <div className='box__simo'>
               <h1>Feel the music</h1>
               <p>Stream over 10 million songs with one click</p>
-              <Link className='link' to='/Signin'>Join Now</Link>
+              <Link className='link__simo' to='/Signin'>Join Now</Link>
             </div>
- 
        </div>
      
     )
