@@ -7,7 +7,7 @@ function Discover () {
     <div className="conteiner_discover">
         <div className='box_discover'>
           <h1>Discover new music</h1>
-          <div className='botoes'>
+          <div className='botoes_discover'>
             <a href='#'>Charts</a>
             <a href='#'>Songs</a>
             <a href='#'>Artists</a>
