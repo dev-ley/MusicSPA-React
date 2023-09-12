@@ -8,16 +8,13 @@
 .conteiner_signin {
     display: flex;
     flex-direction: column;
-
     background-image: url(/src/pages/SignIn/img3.png);
-    background-size: contain;
+    background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
     border: 1px solid rgba(255, 0, 0, 0);
     height: 800px;
     margin: 7rem auto 0 auto;
-
-    
     
 }
 
@@ -37,8 +34,6 @@
     height: 250px;
     justify-content: center;
     
-
-
 }
 
 label {
@@ -94,3 +89,114 @@ gap: 84px;
         text-decoration: none;
     
     }
+
+    @media screen and (max-width:1000px) {
+
+    
+    .conteiner {
+
+        background-image: url(/src/assets/img/img1.png);
+        background-size: cover;
+        background-position: bottom ;
+        background-repeat: no-repeat;
+        border: 1px solid rgba(255, 0, 0, 0);
+        height: 800px;
+    }
+   
+        .box > h1 {
+        
+            font-size: 60px;
+        
+        }
+        
+        
+        .box > p {
+            
+            font-size: 18px;
+        
+        }
+        
+        .box > a {
+        
+            font-size: 18px;
+            padding: 10px;
+        }
+        
+        }
+        
+        @media screen and (max-width:700px) {
+            body {
+            
+                width: max-content;
+                
+        
+        
+            }
+            .conteiner {
+        
+                background-image: url(/src/assets/img/img1.png);
+                background-size: cover;
+                background-position: bottom ;
+                background-repeat: no-repeat;
+                border: 1px solid rgba(255, 0, 0, 0);
+                height: 800px;
+            }
+            .box {
+            
+                display: flex;
+                flex-direction: column;
+                width: 100vh;
+                margin-top: 10rem;
+                margin-left: 5rem;
+                align-items: start;
+                justify-content: center;
+                align-content: center;
+            
+            
+            }
+            
+            .box > h1 {
+            
+                display: flex;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 300;
+                font-size: 55px;
+                color: white;
+                justify-content: center;        
+                justify-items: center;
+                align-items: center;
+        
+            
+            }
+            
+            .box > p {
+            
+                font-family: 'Poppins', sans-serif;
+                font-weight: 300;
+                font-size: 17px;
+                color: white;
+                text-wrap: wrap;
+                text-align: center;
+                margin-top: 10px;
+            
+            }
+            
+            .box > a {
+            
+                margin-top: 50px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 300;
+                font-size: 18px;
+                padding: 10px;
+                color: white;
+                background-color: #5E659D;
+                border-radius: 6px;
+                text-wrap: nowrap;
+                width: 140px;
+                text-align: center;
+            
+            }
+            
+        
+        }
+        
