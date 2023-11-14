@@ -24,4 +24,4 @@ Estas instruções ajudarão você a configurar uma cópia local do projeto para
 
 1. Clone o repositório em sua máquina local.
    ```bash
-   git clone https://github.com/seu-nome-de-usuario/feel-the-music.git
+   git clone https://github.com/dev-ley/feel-the-music.git
