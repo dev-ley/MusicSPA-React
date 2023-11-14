@@ -10,18 +10,3 @@
 - CSS
 
 ---
-
-## Como Começar
-
-Estas instruções ajudarão você a configurar uma cópia local do projeto para fins de desenvolvimento e teste.
-
-### Pré-requisitos
-
-- Node.js instalado em sua máquina
-- Git instalado em sua máquina
-
-### Instalação
-
-1. Clone o repositório em sua máquina local.
-   ```bash
-   git clone https://github.com/dev-ley/MusicSPA-React.git
